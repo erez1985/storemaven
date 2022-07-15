@@ -1,6 +1,6 @@
 # Prerequisites
 
-1. Have mongo run localy on port 27017
+1. Have a mongo db run localy on port 27017
 
 # How to run
 
