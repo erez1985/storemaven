@@ -14,3 +14,5 @@
 2. type npm install
 3. type npm run start (will use port 3001)
 
+note: developed with node v17.7.1
+
