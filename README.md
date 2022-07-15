@@ -4,15 +4,15 @@
 
 # How to run
 
-## install client
-1. go to client folder
-2. type npm install
-3. type npm run start (will use port 3000)
+## Install client
+1. Go to client folder
+2. Type npm install
+3. Type npm run start (will use port 3000)
 
-## install server 
-1. go to server folder
-2. type npm install
-3. type npm run start (will use port 3001)
+## Install server 
+1. Go to server folder
+2. Type npm install
+3. Type npm run start (will use port 3001)
 
-note: developed with node v17.7.1
+Note: developed with node v17.7.1
 
