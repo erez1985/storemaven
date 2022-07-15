@@ -102,8 +102,6 @@ app.post('/:id/answer', async (req, res, next) => {
             });
         }
 
-        console.log('user found on answer route');
-        
         await database.UserAnalyticsModel.findOneAndUpdate({
             user
         }, {
@@ -111,7 +109,6 @@ app.post('/:id/answer', async (req, res, next) => {
         }, {
             upsert: true
         });
-        console.log('updated db in answer route');
         
         res.status(200).send({
             success: true
