@@ -68,6 +68,8 @@ app.get('/users', async (req, res, next) => {
     }, {
         $unwind: {
             path: '$answers',
+            
+            
             includeArrayIndex: 'string'
         }
     }, {
